@@ -45,10 +45,21 @@ ul {
 }
 
 .footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
   background-color: #f9f9f9;
   color: grey;
-  text-align: center;
-  padding-bottom: 2px;
+  margin-top: 20px;
+}
+
+.author {
+  margin-bottom: 0;
+}
+
+.back-to-top {
+  margin-bottom: 20px;
 }
 
 .sign-in-item {
